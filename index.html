@@ -1,75 +1,60 @@
 <!DOCTYPE html>
 <html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Kutlu Orman Ürünleri</title>
-</head>
-<body>
-    <!-- Navbar -->
-    <nav class="relative container mx-auto p-6">
-        <!-- Flex Container -->
-        <div class="flex items-center justify-between">
-            <!-- Logo -->
-            <div class="pt-2">
-                <p class="text-4xl">Buraya Logo Gelecek</p>
-            </div>
-            <!-- Menu items -->
-            <div class="hidden space-x-12 md:flex">
-                <a href="#" class="hover:text-brownishGreen">Ürünlerimiz</a>
-                <a href="#" class="hover:text-brownishGreen">Hakkımızda</a>
-                <a href="#" class="hover:text-brownishGreen">İletişim</a>
-            </div>
-        </div>
-    </nav>
-    <!-- Hero Section -->
-    <section id="hero">
-        <!-- Flex Container -->
-        <div class="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row">
-            <!-- left item -->
-            <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
-                <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
-                    Ahşap ambalaj İhtiyaçlarınıza özel kaliteli çözümler.
-                </h1>
-                <p class="max-w-sm text-center text-brownishGreen md:text-left">
-                    Kutlu Orman palet, takoz, kereste ve diğer ahşap ihtiyaçlarınıza kaliteli, güvenilir ve hızlı çözümler üretmektedir.
-                </p>
-                <div class="flex justify-center md:justify-start">
-                    <!-- Button -->
-                    <a href="#" class="p-3 px-6 pt-2 text-white bg-lightGreen rounded-full baseline hover:bg-lightBrown">Bilgi Al</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+        <title>Kutlu Orman Ürünleri</title>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="relative container mx-auto bg-Grey p-6 mt-5 rounded-xl">
+            <!-- Felx Container -->
+            <div class="flex items-center justify-between">
+                <!-- Logo -->
+                <div class="">
+                    <img class="logo" src="/img/logo-sm.svg" alt="kutluLogo">
                 </div>
+                <!-- Menu Items -->
+                <div class="flex hidden space-x-6 md:flex">
+                    <a href="#" class="text-darkBlue hover:text-Orange">Sektörler</a>
+                    <a href="#" class="text-darkBlue hover:text-Orange">Ürünlerimiz</a>
+                    <a href="#" class="text-darkBlue hover:text-Orange">Hakkımızda</a>
+                    <a href="#" class="text-darkBlue hover:text-Orange">İletişim</a>
+                </div>
+                <!-- Call Us Button -->
+                <a href="#" 
+                    class="hidden 
+                    p-3
+                    px-6
+                    pt-2
+                    text-darkBlue
+                    bg-Orange 
+                    rounded-full 
+                    baseline 
+                    hover:bg-darkBlue 
+                    hover:text-Grey
+                    md:block">
+                    Şimdi Ara
+                </a>
             </div>
-            <!-- right item -->
-            <div class="md:w-1/2">
-                <img src="https://placehold.co/580x525" alt="">
-            </div>
-        </div>
-    </section>
+        </nav>
 
-    <!-- Products Section -->
-    <section id="products">
-        <!-- Flex container -->
-        <div class="container flex bg-lightGreen p-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-col">
-            <!-- Product 1 -->
-            <div class="container flex-row flex place-content-stretch md:w-1/2">
-                <div class="px-4">
-                    <img src="https://placehold.co/580x525" alt="">
-                </div>
-                <div class="px-4">
-                    <p class="max-w-sm  text-2xl text-2xl text-white md:text-left">
-                        Buraya Urun aciklamasi gelecek (Palet ve ya Takoz). Hemen yan tarafa ise ilgili bir resim konulacak.
-                    </p>
-                </div>
-            </div>
-            <!-- Product 2 -->
-            <div></div>
-            <!-- Product 3 -->
-            <div></div>
-            <!-- Product 4 -->
-            <div></div>
-        </div>
-    </section>
 
-</body>
+        <!-- Hero Section justify-around container-->
+        <section id="hero" class="container bg-hero bg-cover bg-no-repeat mx-auto mt-5 rounded-xl flex flex-col justify-start h-screen ">
+            <div class="m-0">
+                <img class="logo" src="/img/logo.svg" alt="kutluLogo">
+            </div>
+            <div class="mx-auto mt-20 text-darkBlue text-left md:text-left">
+                
+                <h1 class="text-4xl">Kutlu Orman Ürünlerine Hoşgeldiniz!</h1>
+                <p class="text-2xl">Endisturiyel ve kişisel ihtiyaçlarınız için çözüm ortağınız.</p>
+                
+            </div>
+        </section>
+
+
+
+    </body>
 </html>

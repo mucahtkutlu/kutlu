@@ -10,11 +10,15 @@ module.exports = {
     },
     extend: {
       colors: {
-        lightGrey: "#97A4A6",
-        lightGreen: "#728C7B",
-        brightGreen: "#707317",
+        darkBlue: "#06113C",
+        Orange: "#FF8C32",
+        darkGrey: "#DDDDDD",
         brownishGreen: "#595519",
-        lightBrown: "#403219"
+        Grey: "#EEEEEE"
+      },
+
+      backgroundImage: {
+        "hero": "url('/img/hero.jpg')",
       }
     },
   },
